@@ -1055,20 +1055,10 @@ body .markdown-body
 .codehilite .vi{color:teal}
 .codehilite .il{color:#009999}
 .codehilite .gc{color:#999;background-color:#EAF2F5}
-</style><title>开始</title></head><body><article class="markdown-body"><h1 id="-">脑图-节点-开始<a class="headerlink" href="#-" title="Permanent link"></a></h1>
-<h2 id="_1">作用<a class="headerlink" href="#_1" title="Permanent link"></a></h2>
-<h2 id="_2">图示<a class="headerlink" href="#_2" title="Permanent link"></a></h2>
-<p><img alt="开始节点" src="https://raw.githubusercontent.com/vi77/eeg/master/images/node/start.png" /></p>
-<h2 id="_3">数据<a class="headerlink" href="#_3" title="Permanent link"></a></h2>
-<p><em>开始节点没有数据</em></p>
-<h2 id="_4">输入连接点<a class="headerlink" href="#_4" title="Permanent link"></a></h2>
-<p><em>开始节点没有输入连接点</em></p>
-<h2 id="_5">输出连接点<a class="headerlink" href="#_5" title="Permanent link"></a></h2>
-<p>开始节点有且仅有一个<code>输出连接点</code></p>
-<h3 id="_6">任务开始<a class="headerlink" href="#_6" title="Permanent link"></a></h3>
-<p>用于<strong>指示整个脑图的开始节点</strong></p>
-<h2 id="_7">示例<a class="headerlink" href="#_7" title="Permanent link"></a></h2>
-<ul>
-<li>例如最简单的脑图的组成：直接将<code>任务开始</code>连接到<code>响应节点</code>的<code>执行 输入连接点</code></li>
-</ul>
-<p><img alt="开始节点" src="https://raw.githubusercontent.com/vi77/eeg/master/images/node/start_sample.png" /></p></article></body></html>
+</style><title>运行日志</title></head><body><article class="markdown-body"><h1 id="-">脑图-高级进阶-运行日志<a class="headerlink" href="#-" title="Permanent link"></a></h1>
+<p>脑图每一次的运行都伴随着日志的产生，日志的有效期最长为<code>7天</code></p>
+<h2 id="pid">Pid<a class="headerlink" href="#pid" title="Permanent link"></a></h2>
+<p>脑图以Http服务的形式返回时，在Response Headers会携带一个名为 <code>X-Eeg-Pid</code> 的头部信息，对应的值就是此次脑图运行产生的Pid</p>
+<h2 id="_1">查询日志<a class="headerlink" href="#_1" title="Permanent link"></a></h2>
+<p>*在管理后台，你可以输入Pid，查询该次脑图运行的具体流程</p>
+<p><em>带星号的为未实现功能</em></p></article></body></html>
