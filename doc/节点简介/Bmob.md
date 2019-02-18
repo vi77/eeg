@@ -1,6 +1,7 @@
-# 脑图-节点-Bmob
+# Bmob 增删查改
+[进入编辑界面 > 鼠标右键 > 开始 ](https://eeg-admin.bmob.cn/#/editor/eeg)，
+![节点图](https://raw.githubusercontent.com/vi77/eeg/master/images/node/bmob.png)
 
-## 作用
 
 Bmob数据库的相关操作，现只包含`增`、`删`、`查`、`改`四个节点
 
@@ -20,7 +21,7 @@ Bmob数据库的相关操作，现只包含`增`、`删`、`查`、`改`四个�
 
 ## 图示
 
-![节点图](https://raw.githubusercontent.com/vi77/eeg/master/images/node/bmob.png)
+
 
 ## 数据
 
